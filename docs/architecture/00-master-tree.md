@@ -42,7 +42,7 @@ sovereign-deployment/
 │                            evaluation (10 metrics, Bayesian), grant packaging.
 │
 └── grants/               ← Funding operations: one directory per grant target in the
-                             24-target, $50M+ portfolio; metric-gated tranche evidence;
+                             24-target grant portfolio; metric-gated tranche evidence;
                              Hyperledger-anchored milestones.
 ```
 
