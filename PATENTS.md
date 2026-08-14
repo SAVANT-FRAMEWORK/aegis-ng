@@ -173,3 +173,7 @@ agreement in the repository purports to license PPA-006 before its filing.
 If any abstract is non-enabling, inconsistent with the shipped component, or
 the document's anchor is absent, the defensive-publication claim fails for
 that item.
+
+## Archived Defensive Publications
+
+- **AEGIS-NG-DEFPUB-v2.0-S51 (REVIEW PENDING):** defensive publication archived at `patents/defensive-publications/AEGIS-NG-DEFPUB-v2.0-S51/` (PDF + INDEX.md); private, pre-disclosure legal review pending before any public release.
