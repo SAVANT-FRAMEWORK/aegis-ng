@@ -125,7 +125,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   stewardship, brownout survival, and energy budgeting so no node ever requires grid
   power or battery servicing infrastructure.
 - **Maps to:** patent claim PPA-001 (solar-only node architecture); grant deliverable —
-  off-grid operability evidence for `african-development-bank/` and `unicef-innovation/`.
+  off-grid operability evidence for `target-XX/` and `target-XX/`.
 - **Will live here:** energy budgets per node type (N-A01…N-D02), MPPT parameters,
   brownout state machines, solar-soak test protocols.
 - **Governing agent/phase:** Agent 02; co-reviewed by Agent 01 (Hardware); per-release.
@@ -159,8 +159,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   jurisdiction. Model languages: Hausa, Fulfulde, Igbo, Yoruba, Efik.
 - **Maps to:** patent claim PPA-003 (federated edge learning with differential privacy —
   FILED); compliance requirement — DP bounds on information leakage; grant deliverable —
-  edge-AI milestones for `doj-ojjdp/` (youth safety inference at the edge) and
-  `mozilla-ford-foundation/` (open, privacy-preserving ML).
+  edge-AI milestones for `target-XX/` (youth safety inference at the edge) and
+  `target-XX/` (open, privacy-preserving ML).
 - **Will live here:** model cards and versioning pins for M-01…M-06, TFLite Micro
   integration contracts, federated-round protocols, per-model DP-budget ledgers,
   language-coverage matrices for the five supported languages.
@@ -184,7 +184,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   response and signed evidence, never silent failure.
 - **Maps to:** patent claim PPA-001 (anti-tamper architecture — FILED); compliance
   requirement — physical-security attestations for sovereign deployments; grant
-  deliverable — custodial-safety evidence for `doj-ojjdp/`.
+  deliverable — custodial-safety evidence for `target-XX/`.
 - **Will live here:** tamper-event taxonomies, response state machines, signed-evidence
   schemas, anti-tamper test harness specifications.
 - **Governing agent/phase:** Agent 05 (Security Auditor) governs; Agent 02 implements.
@@ -214,8 +214,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** human-machine interface and local alerting — audible/visual
   alarm logic, multilingual alert presentation in the five supported languages, and
   accessibility constraints for low-literacy field conditions.
-- **Maps to:** grant deliverable — community-usability evidence for `unicef-innovation/`
-  and `doj-ojjdp/`; compliance requirement — alert comprehensibility is part of the
+- **Maps to:** grant deliverable — community-usability evidence for `target-XX/`
+  and `target-XX/`; compliance requirement — alert comprehensibility is part of the
   safety case.
 - **Will live here:** alert taxonomies, language asset index (Hausa, Fulfulde, Igbo,
   Yoruba, Efik), accessibility test protocols.
@@ -280,7 +280,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   obfuscated.
 - **Maps to:** patent claim PPA-001 (drawing support); sovereign transfer policy
   (blueprints, not product imports); grant deliverable for `india-dst/` and
-  `african-development-bank/` local-manufacture milestones.
+  `target-XX/` local-manufacture milestones.
 - **Will live here:** schematic sources per node type, design-rule records, review
   sign-offs.
 - **Governing agent/phase:** Agent 01; reviews co-signed by Agent 05 (anti-tamper nets).
@@ -324,7 +324,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   architecture (ADR-002) instantiated per deployment, bounding blast radius and latency
   simultaneously.
 - **Maps to:** ADR-002; the mesh falsifiability claim; grant deliverable — coverage
-  plans cited by `doj-ojjdp/` (facility perimeters) and `african-development-bank/`
+  plans cited by `target-XX/` (facility perimeters) and `target-XX/`
   (community scale).
 - **Will live here:** tier-design rules, per-site topology plans, hop/latency budgets.
 - **Governing agent/phase:** Agent 02 designs; Agent 06 validates on site.
@@ -362,8 +362,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 ### `field-ops/deployment-playbooks/README.md`
 - **Constitutional purpose:** step-by-step deployment playbooks — site acceptance, node
   placement, commissioning (with F-12), and handover to local operators.
-- **Maps to:** grant deliverable — repeatable-deployment evidence for `doj-ojjdp/` and
-  `unicef-innovation/`; transfer-policy completeness.
+- **Maps to:** grant deliverable — repeatable-deployment evidence for `target-XX/` and
+  `target-XX/`; transfer-policy completeness.
 - **Will live here:** playbooks, checklists, acceptance forms.
 - **Governing agent/phase:** Agent 06; drilled with `training-drills/`.
 
