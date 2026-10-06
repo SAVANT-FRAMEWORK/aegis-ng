@@ -58,6 +58,23 @@ Last updated: initial public mirror release.
   surveys, maintenance logs, training drills) is retained in the private
   repository pending operational-security review of real deployment geography.
 
+
+## Deployment Agent Corpus — AEGIS-GLOBAL Track (2026-10-06)
+
+The AEGIS-GLOBAL deployment agent corpus (v2.0/v3) is canonical: ten specialist
+agents (AEGIS-DEPLOY-01..10) spanning sovereign manufacturing, field deployment,
+threat audit, supply chain, lawful interoperation, funding, certification,
+training, patent prosecution, and master orchestration. Agents are licensed
+Savant-Commercial-1.0 — public catalog, SIP trigger matrix, and SHA-256
+existence-commitments live in
+[savant-prompts](https://github.com/SAVANT-FRAMEWORK/savant-prompts) and the
+[agent stack documentation](https://savant-framework.github.io/savant-docs/agents/).
+Full RASCEF bodies remain commercial.
+
+Governance: PRIME → S1 → S50 → S52. Sovereignty invariant: open-architecture
+sovereignty transfer, not product export. Safety invariant: no
+surveillance-as-a-service, no predictive policing, no foreign data extraction.
+
 ---
 
 *Entries are removed from this file only in the commit that lands the
