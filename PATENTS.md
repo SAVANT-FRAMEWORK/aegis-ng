@@ -176,4 +176,4 @@ that item.
 
 ## Archived Defensive Publications
 
-- **AEGIS-NG-DEFPUB-v2.0-S51 (REVIEW PENDING):** defensive publication archived at `patents/defensive-publications/AEGIS-NG-DEFPUB-v2.0-S51/` (PDF + INDEX.md); private, pre-disclosure legal review pending before any public release.
+Defensive publications in this program are under pre-disclosure legal review.

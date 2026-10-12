@@ -13,7 +13,7 @@ SHA-256: [PENDING-FIRST-RELEASE]
 > hosting **6 TFLite Micro edge models (M-01 through M-06)** with federated learning and
 > differential privacy in Hausa, Fulfulde, Igbo, Yoruba, and Efik. Solar-only power,
 > anti-tamper enclosures, offline CRDT sync, deployed across **12 Nigerian LGAs** at a
-> published BOM of **$46.30 per node**.
+> published per-node BOM cost.
 
 ## 1. Tree
 
@@ -257,8 +257,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** root of the hardware plane — everything needed for a
   recipient nation to fabricate all 14 node types from open catalogs, blueprints never
   black boxes.
-- **Maps to:** patent claim PPA-001; sovereign transfer policy (open BOM, $46.30/node);
-  grant deliverables for manufacturing-transfer milestones.
+- **Maps to:** patent claim PPA-001; sovereign transfer policy (open BOM, published
+  per-node cost); grant deliverables for manufacturing-transfer milestones.
 - **Will live here:** the four subdirectories below only.
 - **Governing agent/phase:** Agent 01 (Hardware Engineer); frozen at release gates.
 
@@ -269,7 +269,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   nodes. Each node type binds to its firmware subsystems (F-01…F-12 subset), its MCU
   target, and its BOM line-set.
 - **Maps to:** patent claim PPA-001; grant deliverable — node-type coverage matrices for
-  deployment grants; falsifiability support (the $46.30 BOM claim is per node type).
+  deployment grants; falsifiability support (the published BOM cost claim is per node
+  type).
 - **Will live here:** the node registry (type → role → MCU → firmware subset → BOM),
   variant rules, deprecation log.
 - **Governing agent/phase:** Agent 01 governs; Agent 02 co-signs firmware bindings.
@@ -279,8 +280,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   readable form of the hardware constitution; every net is inspectable, nothing is
   obfuscated.
 - **Maps to:** patent claim PPA-001 (drawing support); sovereign transfer policy
-  (blueprints, not product imports); grant deliverable for `india-dst/` and
-  `african-development-bank/` local-manufacture milestones.
+  (blueprints, not product imports); grant deliverable — local-manufacture milestones
+  across the portfolio.
 - **Will live here:** schematic sources per node type, design-rule records, review
   sign-offs.
 - **Governing agent/phase:** Agent 01; reviews co-signed by Agent 05 (anti-tamper nets).
@@ -296,15 +297,15 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Governing agent/phase:** Agent 01; release pins are S50-gated.
 
 ### `hardware/bom/README.md`
-- **Constitutional purpose:** the published bills of materials — **$46.30 per node**,
-  sourced entirely from open LCSC/JLCPCB catalogs, with alternates so no single part
-  shortage can hold a nation hostage.
+- **Constitutional purpose:** the published bills of materials — sourced entirely from
+  open LCSC/JLCPCB catalogs at a published per-node cost, with alternates so no single
+  part shortage can hold a nation hostage.
 - **Maps to:** the AEGIS-GLOBAL falsifiability claim (any deployment whose
   field-maintainable components cannot be sourced at or below the published BOM cost
   forfeits the designation); patent claim PPA-001 support; grant deliverable — cost
   evidence for every infrastructure target.
 - **Will live here:** per-node-type BOMs, alternates tables, price-snapshot log, the
-  $46.30 cost model cross-reference to `aegis-global/manufacturing/cost-model/`.
+  published cost model cross-reference to `aegis-global/manufacturing/cost-model/`.
 - **Governing agent/phase:** Agent 01; price snapshots refreshed each phase; Agent 07
   cites in applications.
 
@@ -324,8 +325,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   architecture (ADR-002) instantiated per deployment, bounding blast radius and latency
   simultaneously.
 - **Maps to:** ADR-002; the mesh falsifiability claim; grant deliverable — coverage
-  plans cited by `doj-ojjdp/` (facility perimeters) and `african-development-bank/`
-  (community scale).
+  plans for facility-perimeter and community-scale deployments.
 - **Will live here:** tier-design rules, per-site topology plans, hop/latency budgets.
 - **Governing agent/phase:** Agent 02 designs; Agent 06 validates on site.
 
@@ -343,7 +343,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   record per LGA binding topology, node census (by N-type), spectrum parameters, and
   sync health.
 - **Maps to:** compliance requirement NDPR (deployment locality records); grant
-  deliverable — deployment-evidence milestones for Nigerian and multilateral funders;
+  deliverable — deployment-evidence milestones for Nigerian and multilateral targets;
   F-12 provisioning registry bindings.
 - **Will live here:** twelve LGA deployment records, census tables, coverage maps.
 - **Governing agent/phase:** Agent 06 governs; Agent 05 audits records.
@@ -362,8 +362,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 ### `field-ops/deployment-playbooks/README.md`
 - **Constitutional purpose:** step-by-step deployment playbooks — site acceptance, node
   placement, commissioning (with F-12), and handover to local operators.
-- **Maps to:** grant deliverable — repeatable-deployment evidence for `doj-ojjdp/` and
-  `unicef-innovation/`; transfer-policy completeness.
+- **Maps to:** grant deliverable — repeatable-deployment evidence across the
+  portfolio; transfer-policy completeness.
 - **Will live here:** playbooks, checklists, acceptance forms.
 - **Governing agent/phase:** Agent 06; drilled with `training-drills/`.
 
@@ -388,8 +388,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** drill scenarios for local operators and AEGIS-GLOBAL
   certification candidates — alert response, tamper response, sync-failure response —
   so competence is demonstrated before it is needed.
-- **Maps to:** grant deliverable — training evidence supporting the $975/person
-  certification (`aegis-global/curriculum/`); compliance requirement — operator
+- **Maps to:** grant deliverable — training evidence supporting the certification
+  program (`aegis-global/curriculum/`); compliance requirement — operator
   competence is part of the safety case.
 - **Will live here:** drill scripts, scoring rubrics, drill records.
 - **Governing agent/phase:** Agent 06; co-designed with Agent 09 (metrics alignment).
@@ -399,8 +399,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 **Gate question for `aegis-ng`:** from directory names alone, can a systems engineer (a)
 enumerate the 12 firmware subsystems and state each one's MCU target, (b) locate the edge
 models M-01…M-06 in exactly one place (`F-04-edge-ai/`) and name its governing agent
-(Agent 03), (c) find the fabrication path schematics → gerber → BOM and the $46.30 cost
-anchor, and (d) trace a deployment from site survey → topology → LGA registry →
+(Agent 03), (c) find the fabrication path schematics → gerber → BOM and the published
+cost anchor, and (d) trace a deployment from site survey → topology → LGA registry →
 maintenance log?
 
 Test procedure: a cold reviewer performs (a)–(d) using names and first-lines only. Any
@@ -410,3 +410,4 @@ subsystem is found hosting artifacts belonging to another subsystem's constituti
 purpose — in particular, if any TFLite Micro model M-01…M-06 is found outside
 `F-04-edge-ai/` — the subsystem boundary is void and this tree's release signature is
 revoked pending re-partition.
+oked pending re-partition.

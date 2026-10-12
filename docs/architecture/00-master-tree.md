@@ -34,11 +34,11 @@ sovereign-deployment/
 │                            STM32L072 / ESP32-S3 / ESP32-C3, 6 TFLite Micro edge models
 │                            (M-01…M-06), 433 MHz LoRa mesh, CRDT sync, solar-only power,
 │                            anti-tamper, field operations across 12 Nigerian LGAs at
-│                            $46.30/node BOM.
+│                            a published per-node BOM cost.
 │
 ├── aegis-global/         ← Sovereign technology transfer instantiation: LCSC/JLCPCB
-│                            manufacturing pipeline ($46.30/unit, DAP Lagos), engineer
-│                            certification curriculum ($975/person), bandwidth-zero
+│                            manufacturing pipeline (published per-unit cost, DAP Lagos), engineer
+│                            certification curriculum, bandwidth-zero
 │                            evaluation (10 metrics, Bayesian), grant packaging.
 │
 └── grants/               ← Funding operations: one directory per grant target in the
@@ -92,11 +92,11 @@ conformance evidence lives inside it — never in prose documents elsewhere.
 ### Rule M-3 — Grant Deliverable Mapping
 
 Every grant deliverable maps 1:1 to a directory inside the target's directory in `grants/`,
-and the directory name is the funder's canonical slug (e.g., `doj-ojjdp/`). Tranche
+and the directory name is the funder's canonical slug (e.g., `target-XX/`). Tranche
 evidence is metric-gated and Hyperledger-anchored; a deliverable without a directory is an
 unfunded promise, and a directory without a deliverable mapping is deleted at the next S50
 gate review. Targets 11–24 of the portfolio exist as honestly-reserved placeholders
-(`target-11/` … `target-24/`) pending the Chunk 8 grant registry; reserved directories are
+(`target-11/` … `target-24/`) pending the canonical grant registry; reserved directories are
 labeled as such and contain no invented content.
 
 ## 3. The `.gitkeep` + `README.md` Convention
