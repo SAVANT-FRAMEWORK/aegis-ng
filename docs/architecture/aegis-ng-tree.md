@@ -113,8 +113,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 ### `firmware/README.md`
 - **Constitutional purpose:** root of the firmware plane — all embedded logic for all 14
   node types, organized as 12 subsystems with immutable identifiers F-01…F-12.
-- **Maps to:** patent claims PPA-001 (node architecture), PPA-003 (federated edge
-  learning), PPA-004 (CRDT sync); compliance requirement — deterministic, auditable
+- **Maps to:** patent claims PPA-003 (node architecture), PPA-004 (federated edge
+  learning), PPA-002 (CRDT sync); compliance requirement — deterministic, auditable
   embedded behavior inherited from the constitution.
 - **Will live here:** the twelve subsystem directories below only.
 - **Governing agent/phase:** Agent 02 (Firmware Engineer) governs the plane; F-04 is
@@ -124,8 +124,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** solar-only power autonomy — MPPT charge control, battery
   stewardship, brownout survival, and energy budgeting so no node ever requires grid
   power or battery servicing infrastructure.
-- **Maps to:** patent claim PPA-001 (solar-only node architecture); grant deliverable —
-  off-grid operability evidence for `african-development-bank/` and `unicef-innovation/`.
+- **Maps to:** patent claim PPA-003 (mesh node architecture); grant deliverable —
+  off-grid operability evidence across the portfolio.
 - **Will live here:** energy budgets per node type (N-A01…N-D02), MPPT parameters,
   brownout state machines, solar-soak test protocols.
 - **Governing agent/phase:** Agent 02; co-reviewed by Agent 01 (Hardware); per-release.
@@ -157,10 +157,10 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   inference on the ESP32-S3, and participates in federated learning with differential
   privacy (ADR-004) so that model improvement never requires citizen data to leave its
   jurisdiction. Model languages: Hausa, Fulfulde, Igbo, Yoruba, Efik.
-- **Maps to:** patent claim PPA-003 (federated edge learning with differential privacy —
+- **Maps to:** patent claim PPA-004 (federated edge learning with differential privacy —
   FILED); compliance requirement — DP bounds on information leakage; grant deliverable —
-  edge-AI milestones for `doj-ojjdp/` (youth safety inference at the edge) and
-  `mozilla-ford-foundation/` (open, privacy-preserving ML).
+  edge-AI milestones across the portfolio (youth-safety inference at the edge;
+  open, privacy-preserving ML).
 - **Will live here:** model cards and versioning pins for M-01…M-06, TFLite Micro
   integration contracts, federated-round protocols, per-model DP-budget ledgers,
   language-coverage matrices for the five supported languages.
@@ -172,7 +172,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** node-side offline CRDT synchronization — mesh nodes merge
   divergent state without connectivity (ADR-003), guaranteeing eventual consistency with
   the CLAI-OS hub across zero-bandwidth intervals (18h guarantee).
-- **Maps to:** patent claim PPA-004 (FILED); twin of `clai-os/deterministic/crdt-sync/`;
+- **Maps to:** patent claim PPA-002 (FILED); twin of `clai-os/deterministic/crdt-sync/`;
   compliance requirement — data residency (sync without foreign infrastructure).
 - **Will live here:** node-side CRDT specifications, merge invariants, bandwidth-budget
   tables, soak-test protocols shared with the hub twin.
@@ -182,9 +182,9 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** tamper detection, response, and evidence preservation —
   enclosure intrusion, voltage glitching, and debug-port abuse trigger deterministic
   response and signed evidence, never silent failure.
-- **Maps to:** patent claim PPA-001 (anti-tamper architecture — FILED); compliance
+- **Maps to:** patent claim PPA-003 (mesh safety infrastructure — FILED); compliance
   requirement — physical-security attestations for sovereign deployments; grant
-  deliverable — custodial-safety evidence for `doj-ojjdp/`.
+  deliverable — custodial-safety evidence across the portfolio.
 - **Will live here:** tamper-event taxonomies, response state machines, signed-evidence
   schemas, anti-tamper test harness specifications.
 - **Governing agent/phase:** Agent 05 (Security Auditor) governs; Agent 02 implements.
@@ -203,7 +203,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** over-the-air update distribution over the 433 MHz mesh —
   update images propagate hop-by-hop to nodes that may never see the internet, with
   signature verification before activation.
-- **Maps to:** patent claim PPA-004 support (offline-first distribution); compliance
+- **Maps to:** patent claim PPA-002 support (offline-first distribution); compliance
   requirement — patchability is a sovereign-maintenance obligation.
 - **Will live here:** update-image formats, mesh-propagation protocols, activation and
   rollback contracts.
@@ -214,8 +214,8 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** human-machine interface and local alerting — audible/visual
   alarm logic, multilingual alert presentation in the five supported languages, and
   accessibility constraints for low-literacy field conditions.
-- **Maps to:** grant deliverable — community-usability evidence for `unicef-innovation/`
-  and `doj-ojjdp/`; compliance requirement — alert comprehensibility is part of the
+- **Maps to:** grant deliverable — community-usability evidence across the portfolio;
+  compliance requirement — alert comprehensibility is part of the
   safety case.
 - **Will live here:** alert taxonomies, language asset index (Hausa, Fulfulde, Igbo,
   Yoruba, Efik), accessibility test protocols.
@@ -226,7 +226,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   the node so that every alert, tamper event, and sync round is reconstructable from the
   node alone, consistent with the audit anchoring doctrine (ADR-005).
 - **Maps to:** compliance requirement — evidentiary logging for sovereign audit; patent
-  claim PPA-001 support (evidence preservation).
+  claim PPA-003 support (evidence preservation).
 - **Will live here:** log schemas, retention/rotation contracts, integrity-sealing
   specifications.
 - **Governing agent/phase:** Agent 02; Agent 05 audits log integrity.
@@ -257,7 +257,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** root of the hardware plane — everything needed for a
   recipient nation to fabricate all 14 node types from open catalogs, blueprints never
   black boxes.
-- **Maps to:** patent claim PPA-001; sovereign transfer policy (open BOM, published
+- **Maps to:** patent claim PPA-003; sovereign transfer policy (open BOM, published
   per-node cost); grant deliverables for manufacturing-transfer milestones.
 - **Will live here:** the four subdirectories below only.
 - **Governing agent/phase:** Agent 01 (Hardware Engineer); frozen at release gates.
@@ -268,7 +268,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   N-B01…N-B04 relay nodes, N-C01…N-C04 hub/gateway nodes, N-D01…N-D02 command and display
   nodes. Each node type binds to its firmware subsystems (F-01…F-12 subset), its MCU
   target, and its BOM line-set.
-- **Maps to:** patent claim PPA-001; grant deliverable — node-type coverage matrices for
+- **Maps to:** patent claim PPA-003; grant deliverable — node-type coverage matrices for
   deployment grants; falsifiability support (the published BOM cost claim is per node
   type).
 - **Will live here:** the node registry (type → role → MCU → firmware subset → BOM),
@@ -279,7 +279,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** complete schematic sources for all 14 node types — the
   readable form of the hardware constitution; every net is inspectable, nothing is
   obfuscated.
-- **Maps to:** patent claim PPA-001 (drawing support); sovereign transfer policy
+- **Maps to:** patent claim PPA-003 (drawing support); sovereign transfer policy
   (blueprints, not product imports); grant deliverable — local-manufacture milestones
   across the portfolio.
 - **Will live here:** schematic sources per node type, design-rule records, review
@@ -302,7 +302,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
   part shortage can hold a nation hostage.
 - **Maps to:** the AEGIS-GLOBAL falsifiability claim (any deployment whose
   field-maintainable components cannot be sourced at or below the published BOM cost
-  forfeits the designation); patent claim PPA-001 support; grant deliverable — cost
+  forfeits the designation); patent claim PPA-003 support; grant deliverable — cost
   evidence for every infrastructure target.
 - **Will live here:** per-node-type BOMs, alternates tables, price-snapshot log, the
   published cost model cross-reference to `aegis-global/manufacturing/cost-model/`.
@@ -333,7 +333,7 @@ F-01…F-12), 5 hardware, 4 mesh, 5 field-ops, plus repo-level files.
 - **Constitutional purpose:** mesh protocol specifications above the radio layer —
   routing, alert prioritization, store-and-forward behavior, and the CRDT sync transport
   that carries F-05 traffic.
-- **Maps to:** patent claim PPA-004 support; compliance requirement — deterministic
+- **Maps to:** patent claim PPA-002 support; compliance requirement — deterministic
   alert-priority behavior is part of the safety case.
 - **Will live here:** protocol specifications, state machines, conformance test matrices.
 - **Governing agent/phase:** Agent 02; conformance tests run at every release gate.
@@ -410,4 +410,3 @@ subsystem is found hosting artifacts belonging to another subsystem's constituti
 purpose — in particular, if any TFLite Micro model M-01…M-06 is found outside
 `F-04-edge-ai/` — the subsystem boundary is void and this tree's release signature is
 revoked pending re-partition.
-oked pending re-partition.

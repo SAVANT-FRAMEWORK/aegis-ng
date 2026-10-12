@@ -39,7 +39,7 @@ under this CAA:
 
   2.3 The AEGIS-NG / AEGIS-GLOBAL 433MHz LoRa mesh safety infrastructure
       control plane: mesh routing, store-and-forward alerting, and per-unit
-      cost-optimized firmware logic (reference per-unit cost USD 46.30)
+      cost-optimized firmware logic (reference per-unit cost withheld — program documentation)
       (subject matter of PPA-003).
 
   2.4 The federated edge learning coordinator with differential privacy:
@@ -111,7 +111,7 @@ under this CAA:
 ## 6. SOVEREIGN LICENSEES
 
 Sovereign entities qualifying under LICENSE Section 5 (Sovereign Technology
-Transfer carve-out) sign this CAA with fees of USD 0.00 for non-commercial
+Transfer carve-out) sign this CAA at no fee for non-commercial
 humanitarian deployment, recorded explicitly in the Order Form. All other
 clauses — including audit, attribution, checkpoint integrity, and trademark —
 apply without modification.
