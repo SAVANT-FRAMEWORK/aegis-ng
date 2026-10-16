@@ -2,7 +2,7 @@
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23407093.svg)](https://doi.org/10.5281/zenodo.23407093)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23407105.svg)](https://doi.org/10.5281/zenodo.23407105)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23409950.svg)](https://doi.org/10.5281/zenodo.23409950)
 [![Defensive Publication](https://zenodo.org/badge/DOI/10.5281/zenodo.23407033.svg)](https://doi.org/10.5281/zenodo.23407033)
 
 > **Evidence discipline:** all performance figures are **unverified engineering
